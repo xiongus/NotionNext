@@ -22,7 +22,7 @@ const Footer = ({ title }) => {
 
       &nbsp;{BLOG.BEI_AN && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{BLOG.BEI_AN}</a><br/></>}
 
-      &nbsp;<span className='text-xs '>Powered by <a href='https://github.com/tangly1024/NotionNext' className='underline dark:text-gray-300'>NotionNext {BLOG.VERSION}</a>.</span></span><br/>
+      </span><br/>
 
     </footer>
   )
